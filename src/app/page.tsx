@@ -1,6 +1,8 @@
+import { container } from "./styles.css";
+
 export default function Home() {
   return (
-    <div>
+    <div className={container}>
       <h1>제목입니다</h1>
       <h2>부제목입니다</h2>
       <p>
